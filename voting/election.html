@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote for Your Candidate - Indian Voting System</title>
+    <link rel="stylesheet" href="css/candi.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="Screenshot 2024-10-02 192959.png" alt="Election Commission of India">
+            <h1>Election Commission of India</h1>
+        </div>
+    </header>
+
+    <section class="candidates">
+        <h2>Cast Your Vote</h2>
+        <form id="voteForm">
+            <div class="candidate-list">
+                <!-- Example for 5 candidates -->
+                <div class="candidate">
+                    <img src="download.png" alt="BJP Symbol">
+                    <label>
+                        <input type="radio" name="candidate" value="BJP" required>
+                        Bharatiya Janata Party (BJP)
+                    </label>
+                </div>
+
+                <div class="candidate">
+                    <img src="images (2).png" alt="Congress Symbol">
+                    <label>
+                        <input type="radio" name="candidate" value=" " required>
+                        Indian National Congress (INC)
+                    </label>
+                </div>
+
+                <div class="candidate">
+                    <img src="download (1).png" alt="BSP Symbol">
+                    <label>
+                        <input type="radio" name="candidate" value="BSP" required>
+                        Bahujan Samaj Party (BSP)
+                    </label>
+                </div>
+
+                <div class="candidate">
+                    <img src="download (2).png" alt="SP Symbol">
+                    <label>
+                        <input type="radio" name="candidate" value="SP" required>
+                        Samajwadi Party (SP)
+                    </label>
+                </div>
+
+                <div class="candidate">
+                    <img src="images.jpg" alt="AAP Symbol">
+                    <label>
+                        <input type="radio" name="candidate" value="AAP" required>
+                        Aam Aadmi Party (AAP)
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Submit Vote</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Election Commission of India &copy; 2024</p>
+    </footer>
+
+    <script src="js/vote.js"></script>
+</body>
+</html>

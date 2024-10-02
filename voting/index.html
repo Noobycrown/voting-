@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Indian Voting System</title>
+    <link rel="stylesheet" href="css/styles2.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-left">
+            <img src="Screenshot 2024-10-02 192959.png" alt="Election Commission of India">
+            <h2>भारतीय निर्वाचन आयोग</h2>
+            <h3>Election Commission of India</h3>
+        </div>
+        <div class="login-right">
+            <div class="login-form">
+                <h2>Login</h2>
+                <p>Do not have an account? <a href="#">Sign-Up</a></p>
+
+                <ul class="elector-options">
+                    <li><a href="#" class="active">Indian Resident Elector</a></li>
+                    <li><a href="#">Indian Overseas Elector</a></li>
+                </ul>
+
+                <form id="loginForm">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+        
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+        
+                    <button type="button" onclick="login()">Login</button>
+                </form>
+
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
